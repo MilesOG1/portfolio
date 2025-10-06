@@ -70,11 +70,41 @@ footer {
   margin-top: 20px;
 }
 
-/* Profile photo styling */
+/* About section container */
+.intro {
+  position: relative;   /* allows child elements to be positioned within */
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Profile image in top-right */
 .profile-img {
-  width: 180px;
-  height: 180px;
+  position: absolute;   /* positions it relative to the section */
+  top: 20px;
+  right: 20px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Optional: add space to text so it doesn’t overlap the image */
+.intro h1, .intro h2, .intro p {
+  margin-right: 180px;  /* pushes text away from the image */
+}
+
+/* Responsive tweak for smaller screens */
+@media (max-width: 768px) {
+  .profile-img {
+    position: static;   /* lets it flow normally */
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+
+  .intro h1, .intro h2, .intro p {
+    margin-right: 0;
+    text-align: center;
+  }
 }
