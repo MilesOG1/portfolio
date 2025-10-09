@@ -108,3 +108,37 @@ footer {
     text-align: center;
   }
 }
+
+.project {
+    background: #fff;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 900px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.project h2 {
+  color: #15401a;
+}
+
+.project ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px 15px;
+  background-color: #15401a;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #15401a;
+}
