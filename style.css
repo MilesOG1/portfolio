@@ -22,8 +22,9 @@ header {
 }
 
 a:hover {
-  color: #4f6552;
-  text-decoration: underline;
+  color: #76b57f;
+  text-decoration: bold;
+  display: inline-block;
 }
 
 nav ul {
