@@ -24,14 +24,6 @@ header {
 a:hover {
   color: #76b57f;
   text-decoration: bold;
-  display: inline-block;
-  margin-top: 5px;
-  margin-right: 5px;
-  padding: 5px 10px;
-  background-color: #436f48;
-  color: white;
-  text-decoration: none;
-  border-radius: 3
 
 }
 
@@ -45,9 +37,22 @@ nav ul {
 }
 
 nav ul li a {
-  color: white;   /* makes links visible against green header */
+  background-color: white;   /* button background */
+  color: #a3ac88;
   text-decoration: none;
   font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* subtle shadow*/
+}
+
+/* Hover effect */
+nav ul li a:hover {
+  background-color: #518951;     /* darker blue on hover */
+  color: white;                  /* switch text color */
+  transform: translateY(-2px);   /* subtle lift */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 }
