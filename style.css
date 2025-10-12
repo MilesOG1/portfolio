@@ -25,6 +25,11 @@ a:hover {
   color: #76b57f;
   text-decoration: bold;
   display: inline-block;
+    margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px 15px;
+  background-color: #436f48;
+
 }
 
 nav ul {
