@@ -37,7 +37,7 @@ nav ul {
 }
 
 nav ul li a {
-  background-color: white;   /* button background */
+  background-color: rgb(97, 137, 95);   /* button background */
   color: #a3ac88;
   text-decoration: none;
   font-weight: bold;
